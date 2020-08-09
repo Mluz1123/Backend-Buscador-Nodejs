@@ -1,0 +1,23 @@
+{
+    "name": "buscardor-node",
+    "version": "1.0.0",
+    "description": "evaluación node - buscador",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node ./server/server.js"
+    },
+    "repository": {
+        "type": "github",
+        "url": "https://github.com/Mluz1123/Backend-Buscador-Nodejs.git"
+    },
+    "author": "ManuleQ",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "express": "^4.16.2"
+    },
+    "devDependencies": {
+        "nodemon": "^1.14.11"
+    }
+}
